@@ -43,13 +43,15 @@ public class Dashboard extends JFrame implements ActionListener {
 		btnLog = new JButton("Log In");
 		btnLog.setBounds(40, 100, 120, 30);
 		btnLog.setFocusable(false);
+		btnLog.addActionListener(this);
 		pnlbutton.add(btnLog);
 
 		btnClose = new JButton("Close");
 		btnClose.setBounds(40, 150, 120, 30);
 		btnClose.setFocusable(false);
+		btnClose.addActionListener(this);
 		pnlbutton.add(btnClose);
-
+		
 		// Adding into main function
 		add(pnlbutton, BorderLayout.WEST);
 		add(pnlWindow, BorderLayout.CENTER);
@@ -62,7 +64,12 @@ public class Dashboard extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent ae) {
 		if(ae.getSource()==btnReg) {
 			new RegistrationWindow();
-			setVisible(false);
+			this.setVisible(false);
+		}else if(ae.getSource()==btnLog) {
+			new LogInWindow();
+			this.setVisible(false);
+		}else if(ae.getSource()==btnClose) {
+			System.exit(0);
 		}
 	}
 	
