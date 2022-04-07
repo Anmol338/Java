@@ -1,0 +1,47 @@
+package ui;
+
+import java.awt.Color;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Registration extends JFrame{
+	
+	JPanel panel;
+	JLabel label;
+	
+	public Registration() {
+		setTitle("Registration");
+		setBounds(500, 150, 900, 600);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(null);
+		
+//		ImageIcon bg_img = new ImageIcon("images.jpg");
+//		Image img = bg_img.getImage();
+//		Image temp_img = img.getScaledInstance(900, 600, Image.SCALE_SMOOTH);
+//		bg_img = new ImageIcon(temp_img);
+//		JLabel background = new JLabel("",bg_img,JLabel.CENTER);
+//		background.setBounds(0, 0, 900, 600);
+//		add(background);
+		
+//		panel = new JPanel();
+//		panel.setBounds(0, 0, 500, 500);
+//		panel.setBackground(Color.BLACK);
+//		add(panel);
+		
+		label.setText("Gender : ");
+		label.setBounds(20,20,50,50);
+		add(label);
+		
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new Registration();
+	}
+	
+}

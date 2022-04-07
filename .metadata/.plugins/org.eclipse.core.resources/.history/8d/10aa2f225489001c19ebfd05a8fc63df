@@ -1,0 +1,24 @@
+package week2_2; //Package include
+
+// Student Information
+public class Student {
+
+	public static void main(String[] args) {
+		//Declare variables
+		String title,fullname,grade;
+		char section;
+		int id,eng,math,science;
+		
+		//Vale Assign
+		title="Student Info";
+		fullname="Anmol Shrestha";
+		grade="BSC.CS&SE";
+		section='B';
+		eng=92;
+		math=98;
+		science=88;
+		
+		
+	}
+
+}

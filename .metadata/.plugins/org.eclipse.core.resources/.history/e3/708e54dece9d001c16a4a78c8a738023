@@ -1,0 +1,10 @@
+package week_6_lab_1;
+
+public class JDBC1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package week2_2;
+
+//
+public class Student {
+
+	public static void main(String[] args) {
+		int id,grade,sub1,sub2,sub3;
+		String name;
+		id=1;
+		grade=10;
+		sub1=80;
+		sub2=70;
+		sub3=60;
+		name="Ram";
+		System.out.printf("Id=%d Name=% Grade=%d Marks:- Subject1=%d Subject2=%d Subject3=%d",id,name,grade,sub1,sub2,sub3);
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Windows_Design/src/Ui/light bubbles.jpg&apos; to &apos;anmol.jpg&apos;" description="Rename resource &apos;light bubbles.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ui/light bubbles.jpg" name="anmol.jpg" stamp="1649211510657" updateReferences="true"/>
+</session>

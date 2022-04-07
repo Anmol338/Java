@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="btnDelete"/>
+		<list key="findhistory">
+			<item value="btnEdit"/>
+			<item value="btnClose"/>
+			<item value="btnSearch"/>
+			<item value="btnSave"/>
+			<item value="btnLogIn"/>
+			<item value="txtPassword"/>
+			<item value="txtUserName"/>
+			<item value="lblPassword"/>
+			<item value="lblUserName"/>
+			<item value="contactAddress"/>
+			<item value="fullName"/>
+			<item value="txtAddress"/>
+			<item value="txtName"/>
+			<item value="lblAddress"/>
+			<item value="lblName"/>
+		</list>
+		<list key="replacehistory">
+			<item value="btnDelete"/>
+			<item value="btnEdit"/>
+			<item value=""/>
+			<item value="btnSearch"/>
+			<item value="btnClose"/>
+			<item value="btnLogin"/>
+			<item value="txtPass"/>
+			<item value="txtUser"/>
+			<item value="lblPass"/>
+			<item value="lblUser"/>
+			<item value="caddress"/>
+			<item value="fname"/>
+			<item value="f"/>
+			<item value="txtPassword"/>
+			<item value="txtUserName"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1178"/>
+		<item key="DIALOG_Y_ORIGIN" value="208"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="379"/>
+	</section>
+</section>

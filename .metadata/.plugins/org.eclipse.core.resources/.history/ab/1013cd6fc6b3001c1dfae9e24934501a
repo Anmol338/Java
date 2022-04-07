@@ -1,0 +1,36 @@
+package ui;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class ManagerWindow extends JFrame {
+
+	JButton btnRoom, btnCustomer, btnBooking;
+
+	public ManagerWindow() {
+		setTitle("Welcome To Manager Window");
+		setBounds(550, 150, 400, 500);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		setLayout(null);
+
+		btnRoom = new JButton("Rooms");
+		btnRoom.setBounds(20, 20, 150, 30);
+		
+		btnCustomer = new JButton("Customers");
+		btnCustomer.setBounds(20, 60, 150, 30);
+		
+		btnBooking = new JButton("Bookings");
+		btnBooking.setBounds(20, 100, 150, 30);
+		
+		add(btnRoom);
+		add(btnCustomer);
+		add(btnBooking);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new ManagerWindow();
+	}
+
+}

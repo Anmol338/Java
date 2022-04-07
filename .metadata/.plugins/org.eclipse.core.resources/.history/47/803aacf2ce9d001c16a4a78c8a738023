@@ -1,0 +1,36 @@
+package week_6_lab_1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JDBC1 {
+
+	public static void main(String[] args) {
+		//Download ConnectorJ
+		//https://www.mysql.com/products/connector/
+		//JDBC Driver for MySQL (Connector/J)
+		
+		//database info
+		//host: localhost
+		//port: 3306
+		//user: root
+		//passwod: 
+		//database: test
+//		try {
+//			//connect with database?
+//			String url ="";
+//		}
+//		catch(Exception ex) {
+//			System.out.println("Error "+ex.getMessage());
+//		}
+		 try {
+			 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/demodb", "root", "root");//Establishing connection
+			 System.out.println("Connected With the database successfully");
+			 } catch (SQLException e) {
+			 System.out.println("Error while connecting to the database");
+			 }
+
+	}
+
+}

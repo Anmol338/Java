@@ -1,0 +1,36 @@
+1. DB info
+host: localhost
+port: 3306
+user: root
+password:
+database name: SampleAppB
+
+2. DDL
+CREATE TABLE users(
+	uid int(11) not null primary key,
+	fullName varchar(50) not null,
+	loginName varchar(50) not null unique,
+	loginPassword varchar(50) not null,
+	role varchar(50) not null
+);
+
+3. DML
+INSERT INTO users VALUES(1,'Lomang Gurung','admin','admin','manager'),
+(2,'Nabin Rai','nabin','nabin','staff'),
+(3,'Raj Thapa','raj','raj','customer'),
+(4,'Kiran Sherpa','kiran','kiran','corpcustomer'),
+(5,'Anmol Shrestha','anmol','anmol','customer');
+
+INSERT INTO users VALUES(1,'Lomang Gurung','admin','admin','manager');
+INSERT INTO users VALUES(2,'Nabin Rai','nabin','nabin','staff');
+INSERT INTO users VALUES(3,'Raj Thapa','raj','raj','customer');
+INSERT INTO users VALUES(4,'Kiran Sherpa','admin','admin','corpcustomer');
+INSERT INTO users VALUES(5,'Anmol Shrestha','anmol','anmol','customer');
+
+SELECT * FROM users;
+SELECT * FROM users WHERE loginName='admin' and loginPassword='admin';
+
+-- Update
+UPDATE users SET fullName='???' WHERE uid=?;
+
+-- Delete

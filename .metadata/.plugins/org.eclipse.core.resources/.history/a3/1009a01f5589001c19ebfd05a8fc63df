@@ -1,0 +1,39 @@
+package week2_2; //Package include
+
+import java.util.Scanner; //Import Scanner
+
+// Student Information
+public class Student2 {
+
+	public static void main(String[] args) {
+		//Declare variables
+		String title,fullname,grade;
+		char section;
+		int id,eng,math,science;
+		Scanner sc = new Scanner(System.in);
+		
+		//Vale Assign
+		title="Student Info";
+		System.out.print("Enter the id of the Student:- ");
+		id = sc.nextInt();
+		System.out.print("Enter the Fullname of the Student:- ");
+		fullname="Anmol Shrestha";
+		grade="BSC.CS&SE";
+		section='B';
+		eng=92;
+		math=98;
+		science=88;
+		
+		//Access Value
+		System.out.println(title);
+		System.out.println("Name = "+fullname);
+		System.out.println("Grade = "+grade);
+		System.out.println("Section = "+section);
+		System.out.println("Id = "+id);
+		System.out.println("English = "+eng);
+		System.out.println("Math = "+math);
+		System.out.println("Science = "+science);
+		
+	}
+
+}

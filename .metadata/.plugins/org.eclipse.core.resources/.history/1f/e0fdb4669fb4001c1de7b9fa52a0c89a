@@ -1,0 +1,24 @@
+package mylibs;
+
+public class Room {
+	int id;
+	String type;
+	double rate;
+	String status;
+	
+	public Room() {
+		this.id = id;
+		this.type = type;
+		this.rate = rate;
+		this.status = status;
+	}
+	
+	public Room(int id, String type, double rate, String status) {
+		this.id = id;
+		this.type = type;
+		this.rate = rate;
+		this.status = status;
+	}
+	
+	
+}

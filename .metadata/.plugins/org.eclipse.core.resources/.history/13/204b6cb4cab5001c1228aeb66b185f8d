@@ -1,0 +1,33 @@
+package Ui;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+//Dashboard Class and inherit the properties of JFrame
+public class Dashboard extends JFrame {
+
+	// Initial Variables
+	JPanel pnlbutton, pnlWindow;
+	JButton btnReg,btnLog,btnClose;
+
+	// Dashboard Function
+	public Dashboard() {
+		setTitle("Hotel Luton");
+		setExtendedState(JFrame.MAXIMIZED_BOTH);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(new BorderLayout());
+
+		pnlbutton = new JPanel();
+		pnlWindow = new JPanel();
+		
+		setVisible(true);
+	}
+
+	// Main Function
+	public static void main(String[] args) {
+		new Dashboard();
+	}
+}

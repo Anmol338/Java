@@ -1,0 +1,13 @@
+package week2_2; //Package include
+
+// Student Information
+public class Student {
+
+	public static void main(String[] args) {
+		//Declare variables
+		String title,fullname,grade,section;
+		int id,eng,math,science;
+		
+	}
+
+}

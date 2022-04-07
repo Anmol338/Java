@@ -1,0 +1,16 @@
+package week2_2;
+import java.util.Scanner;
+public class Calculator {
+
+	public static void main(String[] args) {
+		int fNum,sNum,result;
+		System.out.print("Enter the first number: ");
+		fNum = Integer.parseInt(new Scanner(System.in).nextLine());
+		System.out.print("Enter thesecond number: ");
+		sNum = Integer.parseInt(new Scanner(System.in).nextLine());
+		
+		//Calculate
+		result = fNum + sNum;
+	}
+
+}

@@ -1,0 +1,21 @@
+package week2_2; //Package include
+
+// Student Information
+public class Student {
+
+	public static void main(String[] args) { //Main function
+		int id,grade,sub1,sub2,sub3; //Variable declaration of integer type
+		String name;//Variable declaration of String type
+		char section;
+		id=1; //Assign value
+		grade=10; //Assign value
+		sub1=80; //Assign value
+		sub2=70; //Assign value
+		sub3=60; //Assign value
+		name="Ram"; //Assign value
+		section='A'; //Assign value
+		System.out.println("Student Info");
+		System.out.printf("Id=%d\t Name=%s\t Grade=%d\t Section=%c\nMarks Obtained:-\nComputer=%d\t Database=%d\t Networking=%d",id,name,grade,section,sub1,sub2,sub3);//Access the vriable
+	}
+
+}

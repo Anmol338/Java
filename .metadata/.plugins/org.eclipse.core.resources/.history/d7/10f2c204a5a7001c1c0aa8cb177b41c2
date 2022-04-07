@@ -1,0 +1,25 @@
+package AuthorsTable;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Authors {
+
+	private static final String CreateTable = "CREATE TABLE Authors" + "(id int(11) auto_increment primary key,"
+			+ "firstName varchar(55) not null," + "lastName varchar(55) not null)";
+
+	public static void main(String[] args) {
+		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/jdbc_demo", "root", "");
+				Statement statement = connection.createStatement();) {
+
+			statement.executeUpdate();
+			System.out.println("Connection with the database Successfully!");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

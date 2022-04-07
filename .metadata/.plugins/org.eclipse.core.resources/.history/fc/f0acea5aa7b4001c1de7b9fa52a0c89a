@@ -1,0 +1,5 @@
+package mylibs;
+
+public class Global {
+	public final String ROOM_TYPES[] = {"Single","Double"};
+}

@@ -1,0 +1,19 @@
+package week2_2;
+
+//
+public class Student {
+
+	public static void main(String[] args) {
+		int id,grade,sub1,sub2,sub3; //Variable declaration of integer type
+		String name;//Variable declaration of String type
+		id=1; //Assign value
+		grade=10; //Assign value
+		sub1=80; //Assign value
+		sub2=70; //Assign value
+		sub3=60; //Assign value
+		name="Ram";
+		System.out.printf("Id=%d\t Name=%s\t Grade=%d\nMarks Obtained:-\nComputer=%d\t Database=%d\t Networking=%d",id,name,grade,sub1,sub2,sub3);
+
+	}
+
+}

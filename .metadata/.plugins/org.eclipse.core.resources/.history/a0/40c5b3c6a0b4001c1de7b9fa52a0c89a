@@ -1,0 +1,20 @@
+package mylibs;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+//room management (Room)
+public class JDBCRoom extends Database {
+	public boolean insert(Room room) {
+		Connection conn;
+		PreparedStatement pstat;
+		boolean result = false;
+		try {
+			// insert
+
+		} catch (Exception ex) {
+			System.out.println("Error : " + ex.getMessage());
+		}
+		return true;
+	}
+}

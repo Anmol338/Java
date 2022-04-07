@@ -1,0 +1,15 @@
+package ui;
+
+import javax.swing.JFrame;
+
+public class RegistrationWindow extends JFrame{
+	
+	public RegistrationWindow() {
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

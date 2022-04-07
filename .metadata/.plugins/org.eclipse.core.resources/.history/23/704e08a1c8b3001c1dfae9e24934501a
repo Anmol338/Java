@@ -1,0 +1,44 @@
+package ui;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class RoomWindow extends JFrame {
+
+	JButton btnAddRoom, btnEditRoom, btnDeleteRoom, btnAllRoom;
+
+	public RoomWindow() {
+		setTitle("Welcome To Room Management");
+		setBounds(550, 150, 400, 500);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		setLayout(null);
+
+		btnAddRoom = new JButton("Add");
+		btnAddRoom.setBounds(20, 20, 150, 30);
+		btnAddRoom.setFocusable(false);
+		
+		btnEditRoom = new JButton("Edit");
+		btnEditRoom.setBounds(20, 60, 150, 30);
+		btnEditRoom.setFocusable(false);
+		
+		btnDeleteRoom = new JButton("Delete");
+		btnDeleteRoom.setBounds(20, 100, 150, 30);
+		btnDeleteRoom.setFocusable(false);
+		
+		btnAllRoom= new JButton("Display All");
+		btnAllRoom.setBounds(20, 140, 150, 30);
+		btnAllRoom.setFocusable(false);
+
+		add(btnAddRoom);
+		add(btnEditRoom);
+		add(btnDeleteRoom);
+		add(btnAllRoom);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new RoomWindow();
+	}
+
+}

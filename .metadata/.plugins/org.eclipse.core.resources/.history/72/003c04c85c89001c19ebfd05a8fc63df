@@ -1,0 +1,17 @@
+package week2_2;
+import java.util.Scanner;
+public class Calculator {
+
+	public static void main(String[] args) {
+		int fNum,sNum,sum,diff,pro,div,rem,pow;
+		System.out.print("Enter the first number: ");
+		fNum = Integer.parseInt(new Scanner(System.in).nextLine());
+		System.out.print("Enter thesecond number: ");
+		sNum = Integer.parseInt(new Scanner(System.in).nextLine());
+		
+		//Calculate
+		result = fNum + sNum;
+		System.out,println("The sum is"+result);
+	}
+
+}

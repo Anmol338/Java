@@ -1,0 +1,19 @@
+package ui;
+
+import javax.swing.JFrame;
+
+public class ManagerWindow extends JFrame{
+
+	public ManagerWindow() {
+		setTitle("Manager Window");
+		setSize(400,500);
+		
+		
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

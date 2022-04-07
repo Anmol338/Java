@@ -1,0 +1,11 @@
+package mylibs;
+
+// Registration Class
+public class Registration {
+
+	// Initial Variables
+	int cid, postcode;
+	String fname, lname, gender, address, email, contact, creditcard, password, cpassword;
+	
+	
+}

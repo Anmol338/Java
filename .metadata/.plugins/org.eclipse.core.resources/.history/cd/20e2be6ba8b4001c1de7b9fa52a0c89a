@@ -1,0 +1,7 @@
+package mylibs;
+
+public class Global {
+	public static final String ROOM_TYPES[] = {"Single","Double","Deluxe"};
+	public static final String ROOM_STATUS[] = {"Booked","Available"};
+	public static final String ROOM_STATUS[] = {"1500","2500","3500"};
+}
