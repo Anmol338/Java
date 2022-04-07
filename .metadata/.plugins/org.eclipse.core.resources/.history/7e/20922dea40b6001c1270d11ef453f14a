@@ -1,0 +1,19 @@
+package Ui;
+
+import javax.swing.JFrame;
+
+public class LogInWindow extends JFrame{
+
+	public LogInWindow() {
+		setTitle("LogIn Window");
+		setBounds(500, 150, 500, 500);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new LogInWindow();
+	}
+
+}

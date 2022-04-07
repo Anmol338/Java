@@ -1,0 +1,10 @@
+package Ui;
+
+public class LogInWindow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

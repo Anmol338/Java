@@ -1,0 +1,25 @@
+package Ui;
+
+//import library
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class LogInWindow extends JFrame {
+
+	JLabel lblUname, lblPass;
+	JButton btnLogIn, btnReg, btnClose;
+
+	public LogInWindow() {
+		setTitle("LogIn Window");
+		setBounds(500, 150, 500, 500);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new LogInWindow();
+	}
+
+}

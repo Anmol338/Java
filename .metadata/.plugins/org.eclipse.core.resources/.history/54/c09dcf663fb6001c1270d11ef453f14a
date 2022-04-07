@@ -150,7 +150,6 @@ public class RegistrationWindow extends JFrame implements ActionListener {
 			int a = JOptionPane.showConfirmDialog(this, "Are you sure?");
 			if (a == JOptionPane.YES_OPTION) {
 				this.setVisible(false);
-				new Dashboard();
 			}
 		} else if (ae.getSource() == btnReg) {
 

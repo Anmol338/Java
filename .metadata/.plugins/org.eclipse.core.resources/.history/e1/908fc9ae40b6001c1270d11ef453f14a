@@ -1,0 +1,15 @@
+package Ui;
+
+import javax.swing.JFrame;
+
+public class LogInWindow extends JFrame{
+
+	public LogInWindow() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
